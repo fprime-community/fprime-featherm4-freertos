@@ -6,7 +6,7 @@ Welcome to fprime-featherm4-freertos, a repository that contains the board-speci
 
 - <a href=https://github.com/laboratory10/fprime-featherm4-freertos-reference>fprime-featherm4-freertos-reference</a> - an example of a basic build using a specific platform
     - fprime-featherm4-freertos (this repository) - a platform repository which is defined by a combination of board and OS
-        - <a href=https://github.com/laboratory10/fprime-featherm4>fprime-featherm4</a> - board-specific platform/toolchain/driver files
+        - <a href=https://github.com/fprime-community/fprime-arduino>fprime-arduino</a> - board-specific platform/toolchain/driver files
         - <a href=https://github.com/laboratory10/fprime-freertos>fprime-freertos</a> - a port connecting the F' OSAL to FreeRTOS
  
 

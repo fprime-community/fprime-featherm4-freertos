@@ -6,11 +6,11 @@
 if(NOT DEFINED ARDUINO_FQBN)
     message(FATAL_ERROR "Must defined arduino FQBN")
 elseif(CMAKE_SYSTEM_PROCESSOR STREQUAL "arm")
-    set(ARDUINO_TYPES_DIR "${FPRIME_PROJECT_ROOT}/fprime-featherm4-freertos/fprime-arduino/cmake/platform/types/arm") 
+    set(ARDUINO_TYPES_DIR "${FPRIME_PROJECT_ROOT}/lib/fprime-featherm4-freertos/fprime-arduino/cmake/platform/types/arm") 
 else()
-    set(ARDUINO_TYPES_DIR "${FPRIME_PROJECT_ROOT}/fprime-featherm4-freertos/fprime-arduino/cmake/platform/types/basic")
+    set(ARDUINO_TYPES_DIR "${FPRIME_PROJECT_ROOT}/lib/fprime-featherm4-freertos/fprime-arduino/cmake/platform/types/basic")
 endif()
-set(ARDUINO_PLATFORM_DIR "${FPRIME_PROJECT_ROOT}/fprime-featherm4-freertos/fprime-arduino/cmake/platform")
+set(ARDUINO_PLATFORM_DIR "${FPRIME_PROJECT_ROOT}/lib/fprime-featherm4-freertos/fprime-arduino/cmake/platform")
 
 set(CMAKE_EXECUTABLE_SUFFIX "${FPRIME_ARDUINO_EXECUTABLE_SUFFIX}" CACHE INTERNAL "" FORCE)
 

@@ -1,6 +1,7 @@
 # fprime-featherm4-freertos/library.cmake
-# This is a meta-library used only to pull in submodules.
-# No components or modules are defined here.
+
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Svc/FeatherM4FatalHandler")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Svc/OsResources")
 
 ### Libraries
 # Set the path to the Arduino libraries directory

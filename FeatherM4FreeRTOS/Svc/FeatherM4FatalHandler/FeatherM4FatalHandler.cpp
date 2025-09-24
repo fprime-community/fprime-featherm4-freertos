@@ -4,7 +4,7 @@
 // ======================================================================
 
 #include <Fw/Logger/Logger.hpp>
-#include "Svc/FeatherM4FatalHandler/FeatherM4FatalHandler.hpp"
+#include "FeatherM4FreeRTOS/Svc/FeatherM4FatalHandler/FeatherM4FatalHandler.hpp"
 
 namespace FeatherM4_FreeRTOS {
 

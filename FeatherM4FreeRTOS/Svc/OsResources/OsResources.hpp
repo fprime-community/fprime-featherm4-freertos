@@ -7,7 +7,7 @@
 #ifndef FeatherM4_FreeRTOS_OsResources_HPP
 #define FeatherM4_FreeRTOS_OsResources_HPP
 
-#include "Svc/OsResources/OsResourcesComponentAc.hpp"
+#include "FeatherM4FreeRTOS/Svc/OsResources/OsResourcesComponentAc.hpp"
 
 namespace FeatherM4_FreeRTOS {
 

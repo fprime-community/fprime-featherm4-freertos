@@ -4,7 +4,7 @@
 // \brief  cpp file for OsResources component implementation class
 // ======================================================================
 
-#include "Svc/OsResources/OsResources.hpp"
+#include "FeatherM4FreeRTOS/Svc/OsResources/OsResources.hpp"
 #include <FreeRTOS.h>
 #include <task.h>
 

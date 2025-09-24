@@ -6,7 +6,7 @@
 #ifndef FeatherM4_FreeRTOS_FatalHandler_HPP
 #define FeatherM4_FreeRTOS_FatalHandler_HPP
 
-#include "Svc/FeatherM4FatalHandler/FeatherM4FatalHandlerComponentAc.hpp"
+#include "FeatherM4FreeRTOS/Svc/FeatherM4FatalHandler/FeatherM4FatalHandlerComponentAc.hpp"
 
 namespace FeatherM4_FreeRTOS {
 

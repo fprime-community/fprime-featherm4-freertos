@@ -1,7 +1,7 @@
 # fprime-featherm4-freertos/library.cmake
 
-add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Svc/FeatherM4FatalHandler")
-add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Svc/OsResources")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/FeatherM4FreeRTOS/Svc/FeatherM4FatalHandler")
+add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/FeatherM4FreeRTOS/Svc/OsResources")
 
 ### Libraries
 # Set the path to the Arduino libraries directory

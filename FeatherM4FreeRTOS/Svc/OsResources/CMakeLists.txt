@@ -14,13 +14,15 @@
 # root when not specifically overridden by the developer. i.e. The module defined by
 # `Ref/SignalGen/CMakeLists.txt` will be named `Ref_SignalGen`.
 
+include_directories("${CMAKE_SOURCE_DIR}/lib/FreeRTOS-SAMD51/src")
+
 register_fprime_library(
     AUTOCODER_INPUTS
         "${CMAKE_CURRENT_LIST_DIR}/OsResources.fpp"
     SOURCES
         "${CMAKE_CURRENT_LIST_DIR}/OsResources.cpp"
-#   DEPENDS
-#       MyPackage_MyOtherModule
+    DEPENDS
+        FreeRTOS
 )
 
 ### Unit Tests ###

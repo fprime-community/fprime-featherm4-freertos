@@ -18,5 +18,6 @@ register_fprime_config(
         Os_Console_Arduino
         Os_RawTime_Arduino
         Fw_StringFormat_snprintf
+        Fw_StringScan_sscanf
     INTERFACE # No buildable files generated
 )

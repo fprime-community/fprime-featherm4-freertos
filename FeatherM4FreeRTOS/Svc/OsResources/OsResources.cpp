@@ -7,6 +7,7 @@
 #include "FeatherM4FreeRTOS/Svc/OsResources/OsResources.hpp"
 #include <FreeRTOS.h>
 #include <task.h>
+#include <cstring>
 
 extern char __end__;
 extern "C" char __StackTop;

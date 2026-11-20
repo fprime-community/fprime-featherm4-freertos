@@ -9,6 +9,7 @@ register_fprime_config(
     HEADERS
         "${CMAKE_CURRENT_LIST_DIR}/PlatformTypes.h"
     CHOOSES_IMPLEMENTATIONS
+        Os_CountingSemaphore_Stub
         Os_File_Stub
         Os_Generic_PriorityQueue
         Os_Mutex_FreeRTOS

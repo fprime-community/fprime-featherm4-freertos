@@ -19,5 +19,4 @@ set(CMAKE_EXECUTABLE_SUFFIX "${FPRIME_ARDUINO_EXECUTABLE_SUFFIX}" CACHE INTERNAL
 set(FPRIME_PLATFORM "ArduinoFw")
 
 include_directories("${CMAKE_CURRENT_LIST_DIR}")
-include_directories("${FPRIME_PROJECT_ROOT}/lib/fprime-featherm4-freertos/fprime-arduino/Arduino")
 add_fprime_subdirectory("${ARDUINO_TYPES_DIR}")
